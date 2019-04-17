@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: [
+        './node_modules/jquery/dist/jquery.min.js',
         './src/scss/main.scss',
         './src/js/scripts.js'
     ],
@@ -13,7 +14,6 @@ module.exports = {
         rules: [
             {
                 test: /\.m?js$/,
-                exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader'
                 }

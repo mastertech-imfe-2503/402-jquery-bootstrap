@@ -1,4 +1,12 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import 'header';
+
 body {
     font-family: sans-serif;
     margin: 0;
+}
+
+.cell {
+    background-color: darkgray;
 }
